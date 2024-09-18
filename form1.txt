@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>user registration form</title>
+</head>
+<body>
+<h1>user registration form</h1>
+<form>
+<lable for ="name">name:</lable>
+<input type="text"id="name" name="name" required>
+<br>
+<br>
+<lable for="email"email:</lable>
+<input type="email" name="name" id="email" name="email" required>
+<br><br>
+<lable for ="phone">phone:</lable>
+<input type="tel" id="phone" name="phone">
+<br><br>
+<lable for="organisation">organisation:</lable>
+<input type="text" id="organisation" name="organisation">
+<br><br>
+<lable for ="attendence_type">attendence_type:</lable>
+<select id ="attendee_type"name="attendee_type">
+<option value="general">general</option>
+<option value="vip">vip</option>
+<option value="speaker">speaker</option>
+</select>
+<br><br>
+<input type="submit" value="register">
+</form>
+</body>
+</html>
